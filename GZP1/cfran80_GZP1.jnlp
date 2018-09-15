@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="cfran80_GZP1.jnlp">
+  <information>
+    <title>cfran80_GZP1</title>
+    <vendor>Neal</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="cfran80_GZP1.jar" size="1066211" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.44-bin.jar" size="999635" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="cfran80_GZP1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cfran80_gzp1.Cfran80_GZP1"  name="cfran80_GZP1" />
+  <update check="always"/>
+</jnlp>
